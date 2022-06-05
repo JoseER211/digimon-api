@@ -7,17 +7,9 @@ import { DigimonsService } from './digimons.service';
 import { DigimonsComponent } from './digimons/digimons.component';
 
 @NgModule({
-  declarations: [	
-    AppComponent,
-      DigimonsComponent
-   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule
-  ],
-  providers: [
-    DigimonsService
-  ],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent, DigimonsComponent],
+  imports: [BrowserModule, HttpClientModule],
+  providers: [DigimonsService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

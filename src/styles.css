@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: linear-gradient(rgb(52, 102, 174) 0%, rgb(83, 144, 241) 100%);
+}

@@ -1,1 +1,31 @@
-
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let digimon of digimons">
+      <div
+        class="card mb-3"
+        style="
+          max-width: 540px;
+          background: linear-gradient(
+            -60.76deg,
+            rgb(150, 121, 255) 0%,
+            rgb(212, 153, 234) 57.96%,
+            rgb(238, 164, 179) 100%
+          ); ;
+        "
+      >
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="{{ digimon.img }}" class="card-img" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Name: {{ digimon.name }}</h5>
+              <p class="card-text">Level: {{ digimon.level }}</p>
+              <button class="btn btn-primary">Consultar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

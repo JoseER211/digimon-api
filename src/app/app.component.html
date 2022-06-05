@@ -1,21 +1,17 @@
-<h1>Digimon App</h1>
+<h1 style="color: aqua; text-align: center;">Digimon App</h1>
+<br />
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4" *ngFor="let digimon of digimons">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="{{digimon.img}}" class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">name: {{digimon.name}}</h5>
-                      <p class="card-text">level: {{digimon.level}}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-    </div>
-</div>
+<select>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+</select>
+
+<app-digimons></app-digimons>
